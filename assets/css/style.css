@@ -166,6 +166,43 @@ main{
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 400px){}
+    html {
+        margin: 10px; 
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
 
+    .box-foto {
+        margin-bottom: 10px;
+    }
+
+    .projeto {
+        width: 40vw;
+        
+    }
+
+    .last-projeto {
+        width:40vw;
+        
+    }
+
+    .sobre {
+        margin: 0px 0px 10px 0px;
+    }
+    
+    .exp {
+        margin: 0px 0px 10px 0px;
+    }
+
+    .soft-skills {
+        margin: 0px 5px 10px 0px; ;
+    }
+
+    .hard-skills {
+        margin: 0px 0px 10px 5px;
+    }
 @media screen and (min-width: 800px){}
 /* MEDIA QUERIES */
